@@ -1,0 +1,270 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans',sans-serif;
+    background-color: #90AACB;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: static;
+    margin-top: 20px;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: courier;
+    color: #145c94;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: absolute;
+    top: 0;
+    background: #D1E8E4;
+    z-index: 1;
+    border-bottom: 1px solid #082032;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+    margin-top: 70px;
+}
+
+.gambar img {
+    width: 500px;
+    height: 500px;
+    margin-top: 70px;
+}
+
+.kolom {
+    margin-top: 70px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+}
+
+.kolom .deskripsi {
+    font-size: 19px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: #082032;
+}
+
+h1 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #082032;
+    width: 100%;
+    line-height: 50px;
+}
+
+a.tbl-biru {
+    background: #082032;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru:hover {
+    background: #FF5C58;
+    text-decoration: none;
+}
+
+a.tbl-pink {
+    background: #FF5C58;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-pink:hover {
+    background: #082032;
+    text-decoration: none;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+.proj-images  {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.images {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.images img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.images p {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    color: #082032;
+}
+
+.partner-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-gambar img {
+    width: 900px;
+    height: 500px;
+
+}
+
+#contact {
+    background: #dedede;
+    padding: 50px 0px 50px 0px;
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footer-section {
+    width: 20%;
+    margin: 0 auto;
+}
+
+h3 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #082032;
+    width: 100%;
+    line-height: 50px;
+}
+
+#copyright {
+    text-align: center;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    margin-top: 50px;
+}
+
+/* responsive di layar mobile middle */
+@media(min-width:321px) and (max-width: 425px){
+    section#box-profile{
+        width: 90%;
+        height: 630px;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 30px;
+    }
+    .menu-mobile{
+        top: 20px;
+        right: 10%;
+        display: inline-block;
+    }
+    nav ul{
+        display: none;
+        right: 0;
+        width: 100%;
+        text-align: center;
+        top: 43px;
+        z-index: 99;
+        background: floralwhite;
+    }
+    nav ul li{
+        float: unset;
+        margin: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .description{
+        padding-left: 0px;
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+        border: none;
+    }
+    .description .button{
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .img-profile .photo{
+        left: 35px;
+        position: relative;
+    }
+    .information{
+        top: 75px;
+        margin-left: 25px;
+        font-size: 14px;
+    }
+    section#input-form{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
